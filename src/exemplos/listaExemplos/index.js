@@ -1,6 +1,6 @@
 import { View, TouchableOpacity, Text } from 'react-native';
 
-export default function() {
+export default function ListaExemplos () {
     return(
         <View>
             <Text>Exemplos</Text>
