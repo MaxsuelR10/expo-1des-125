@@ -18,7 +18,8 @@ import Exemplo08 from './src/exemplos/ex08';
 import Exemplo09 from './src/exemplos/ex09';
 
 import Exemplos from './src/exemplos/listaExemplos';
-
+import Atividades from './src/atividades/listaAtividades';
+import bottomTabs from './src/navegacao/bottomTabs';
 
 import Atividade01 from './src/atividades/atv01';
 import Atividade02 from './src/atividades/atv02';
@@ -39,7 +40,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <NavigationContainer>
-        <StackExemplos />
+        <bottomTabs />
       </NavigationContainer>
       <StatusBar style="light" />
     </View>
